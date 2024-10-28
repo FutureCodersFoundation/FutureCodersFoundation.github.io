@@ -133,7 +133,7 @@ li a{
   text-align:center;
   margin-left:25%;
   margin-right:25%;
-  font-size:5vw;
+  font-size:4vw;
   transform: translate(15vw, -40vw);
   color: rgb(255, 255, 255);
 
@@ -169,7 +169,7 @@ section{
   text-align:center;
   margin-left:25%;
   margin-right:25%;
-  font-size:5vw;
+  font-size:4vw;
   transform: translate(15vw, -50vw);
   color: rgb(255, 255, 255);
 
@@ -194,6 +194,23 @@ h1{
     cursor: pointer;
     border-radius: 15px;
     
+}
+.aboutText
+{
+  color: white;
+  font-size: 2vw;
+  width: 80%;
+  margin-left:10%;
+  text-align:center;
+
+
+
+}
+.aboutText2{
+  color: rgb(237, 181, 75);
+  font-size: 5vw;
+  text-align:center;
+
 }
 
 
