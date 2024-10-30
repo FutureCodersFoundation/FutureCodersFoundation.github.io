@@ -1,0 +1,109 @@
+/* Editors notes
+two conflicting css files might be an issue
+but we're going to let the me who doesn't have physics hw deal with that😎
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+/* body{
+    background: #06467e;
+} */
+.container{
+    width: 80%;
+    margin: 50px auto;
+}
+.contact-box{
+    background: #fff;
+    display: flex;
+}
+
+.contact-left{
+   flex-basis: 60%;
+   padding: 40px 60px; 
+}
+
+.contact-left h3{ /* "send your request" needs sum space under it*/
+    margin-bottom: 20px;
+ }
+
+.contact-right{
+    flex-basis: 40%;
+    padding: 40px;
+    background: rgb(237, 181, 75);
+    color:black;
+}
+
+h1{
+    margin-bottom: 10px;
+}
+
+h3{ 
+    margin-bottom: 15px;
+
+}
+
+.container p{
+    margin-bottom: 40px;
+    color: white;
+}
+
+.input-row{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.input-row .input-group{
+    flex-basis: 45%;
+}
+
+input[type="text"]{
+    width: 105%;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    outline: none;
+    padding-bottom: 5px;
+}
+
+/* input[type="message"]{
+    width: 100%;
+    border: 1px solid #ccc;
+    outline: none;
+    padding: 18px;
+    lowk did not pan out but im keeping this as a teaching moment (also im proud)
+} */
+
+textarea {
+    width: 800px;
+    height: 40px;
+    overflow-y: scroll; /* Enable vertical scrolling */
+    resize: none; /* Prevent user from resizing */
+    padding: 25px;
+    margin: 0px;
+}
+
+label{
+    margin-bottom: 6px;
+    display: block;
+}
+
+button{
+    background: rgb(202, 153, 6);
+    width: 100px;
+    border: none;
+    outline: none;
+    height: 30px;
+    border-radius: 15px;
+    margin-top: 6px;
+    box-shadow: 1px 1px 0px 1px black;
+}
+
+tr td:first-child{
+    padding-right: 20px;
+}
+
+tr td{
+    padding-top: 20px;
+}
