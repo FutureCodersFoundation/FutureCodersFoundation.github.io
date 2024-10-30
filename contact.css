@@ -3,26 +3,6 @@ two conflicting css files might be an issue
 but we're going to let the me who doesn't have physics hw deal with that😎
 */
 /* This is for the navigation bar. Makes it look the same across all pages */
-.navbar{
-  background: rgb(255, 255, 255);padding-right: 2%; padding-left: 2%;
-}
-.navdiv
-{
-  display: flex; align-items: center; justify-content:space-between;
-}
-.logo a{
-  font-size: 25px; font-weight: 600; color: rgb(7, 7, 35);
-  text-decoration-line: none;
-}
-li{
-  list-style: none; display: inline-block;  
-  text-decoration-line: none;
-}
-li a{
-  color: rgb(22, 22, 87); font-size: 18px; font-weight: bold; margin-right: 35px;
-  text-decoration-line: none;
-}
-
 *{
     margin: 0;
     padding: 0;
