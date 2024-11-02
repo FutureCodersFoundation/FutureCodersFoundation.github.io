@@ -59,7 +59,7 @@ main{
 /*Adjusts font size based on screen size*/
 @media screen and (max-width: 950px) {
     .overlay-text {
-      font-size: 120%;
+      font-size: 100%;
   
     }
   }
