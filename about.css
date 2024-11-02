@@ -50,7 +50,7 @@ section{
     color: white;
     font-size: 30px;
     text-decoration: none;
-    background-color: rgb(243, 171, 54);
+    background-color: rgb(255, 145, 55);
     padding: 1px 32px;
     margin: 4px 2px;
     cursor: pointer;
@@ -76,7 +76,7 @@ section{
 
 }
 .aboutText2{
-  color: rgb(237, 181, 75);
+  color: rgb(255, 145, 55);
   font-size: 5vw;
   text-align:center;
 
