@@ -52,11 +52,11 @@ body{
     margin-left: 25%;
     margin-right:25%;
     font-size: 350%;
-    color: rgb(237, 181, 75);
+    color: rgb(255, 145, 55);
   }
   h3{
     padding-top: 100px;
-    color: rgb(237, 181, 75);
+    color: rgb(255, 145, 55);
     text-align: center;
     width: 100%;
     font-size: 250%;
@@ -97,7 +97,7 @@ body{
     color: white;
     font-size: 30px;
     text-decoration: none;
-    background-color: rgb(243, 171, 54);
+    background-color: rgb(255, 145, 55);
     padding: 1px 32px;
     margin: 4px 2px;
     cursor: pointer;
