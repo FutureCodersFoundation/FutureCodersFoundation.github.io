@@ -36,7 +36,7 @@ but we're going to let the me who doesn't have physics hw deal with that😎
     flex-basis: 10%;
     width:100%;
     padding: 4%;
-    background: rgb(237, 181, 75);
+    background: rgb(255, 145, 55);
     color:black;
 }
 /*Adjusts font size based on screen size*/
@@ -112,7 +112,7 @@ label{
 }
 
 button{
-    background: rgb(202, 153, 6);
+    background: rgb(255, 145, 55);
     width: 10%;
     border: none;
     outline: none;
