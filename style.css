@@ -12,7 +12,6 @@ body{
     margin-right: auto;
     width: 100%;
   }
-
  header{
   height: 25%;
   width: 100%;
@@ -25,24 +24,6 @@ main{
 
 
 }
-p{
-  text-align: center;
-  margin-left: 25%;
-  margin-right: 25%;
-  width:50%
-}
-
-footer{
-  background-color: rgb(255, 255, 255);
-  text-align: center;
-  font-size: 30px;
-  color:black;
-  font-style: bold;
-  font-family:'Gill Sans', sans-serif;
-
-
-}
-
 
 .photo{
 
@@ -50,15 +31,6 @@ footer{
   height: 50%;
   width: 50%;
   margin-right: 100px;
-}
-.textBody
-{
-
-  text-align: right;
-  margin-left: 50px;
-  font-size: medium;
-  text-align: start;
-
 }
 
 .image-container {
@@ -74,87 +46,36 @@ footer{
 }
 
 .overlay-text {
-  padding-top:15%;
+  padding-top:8%;
   position:absolute;
   top: 10%; 
   left: 50%; 
   margin-right:25%;
   color: #fff; 
   width:50%;
-  font-size:3.6vw;
-  text-align: center;
+  font-size: 2.5rem;
+  text-align: left;}
 
-}
+/*Adjusts font size based on screen size*/
+@media screen and (max-width: 950px) {
+    .overlay-text {
+      font-size: 130%;
+  
+    }
+  }
+
 .overlay-text2 {
   position: absolute;
-  left: 61%; 
+  left: 50%; 
   top:10%;
   color: #fff; 
   font-size:5vw;
-  text-align: center;
+  text-align: left;
   color: rgb(237, 181, 75);
 
 }
-.aboutImage{
-  padding-left:4%;
-  padding-top:3%;
-  align-items: left;
 
-}
-.aboutImage2{
-  padding-left:4%;
-  transform: translate(0, -10vw);
-  align-items: left;
 
-}
-
-.about-overlay{
-  padding-top:5%;
-  position:absolute;
-  text-align:center;
-  margin-left:25%;
-  margin-right:25%;
-  font-size:4vw;
-  transform: translate(15vw, -40vw);
-  color: rgb(255, 255, 255);
-
-}
-section{
-  padding-top: 3%;
-}
-.about-overlay2{
-
-  font-size: 2vw;
-  width: 75%;
-  text-align: left;
-  margin-left:15%;
-  margin-right:20%;
-  transform: translate(15vw, -25vw);
-  color: rgb(255, 255, 255);
-  width:70%;
-}
-.about-overlay3{
-
-  font-size: 2vw;
-  width: 75%;
-  text-align: left;
-  margin-left:15%;
-  margin-right:20%;
-  transform: translate(15vw, -35vw);
-  color: rgb(255, 255, 255);
-  width:70%;
-}
-.about-overlay4{
-  padding-top:5%;
-  position:absolute;
-  text-align:center;
-  margin-left:25%;
-  margin-right:25%;
-  font-size:4vw;
-  transform: translate(15vw, -50vw);
-  color: rgb(255, 255, 255);
-
-}
 h1{
 
   text-align: center;
@@ -176,23 +97,7 @@ h1{
     border-radius: 15px;
     
 }
-.aboutText
-{
-  color: white;
-  font-size: 2vw;
-  width: 80%;
-  margin-left:10%;
-  text-align:center;
 
-
-
-}
-.aboutText2{
-  color: rgb(237, 181, 75);
-  font-size: 5vw;
-  text-align:center;
-
-}
 /* Style the navigation menu */
 .topnav {
   overflow: hidden;
@@ -235,5 +140,13 @@ h1{
   color: rgb(253, 253, 253);
 }
 }
+footer{
+  background-color: rgb(255, 255, 255);
+  text-align: center;
+  font-size: 30px;
+  color:black;
+  font-style: bold;
+  font-family:'Gill Sans', sans-serif;
+
 
 }

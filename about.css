@@ -30,52 +30,19 @@ footer{
   padding-top:3%;
   align-items: center;
 }
+@media screen and (max-width: 950px) {
+  .aboutImage {
+    height: 80%;
+    width: 50%;
 
-
-/*Sinclair About Section*/
-.about-overlay{
-  padding-top:5%;
-  position:absolute;
-  text-align:center;
-  margin-left:25%;
-  margin-right:25%;
-  font-size:4vw;
-  color: rgb(255, 255, 255);
-
+  }
 }
+
 section{
   padding-top: 3%;
   text-align:center;
   align-items:center;
 }
-.about-overlay2{
-  font-size: 100%;
-  text-align: center;
-  color: rgb(255, 255, 255);
-  width:50%;
-}
-
-
-/*Alex About Section*/
-.about-overlay3{
-
-  font-size: 100%;
-  width: 50%;
-  text-align: center;
-  color: rgb(255, 255, 255);
-  width:70%;
-}
-.about-overlay4{
-  padding-top:5%;
-  position:absolute;
-  text-align:center;
-  font-size:4vw;
-  color: rgb(255, 255, 255);
-
-}
-
-
-
 
 .button
 {
@@ -93,13 +60,19 @@ section{
 .aboutText
 {
   color: white;
-  font-size: 150%;
+  font-size: 3vw;
   width: 90%;
   margin-right:auto;
   margin-left:auto;
   text-align:center;
+}
+/*Adjusts font size based on screen size*/
+@media screen and (max-width: 950px) {
+  .aboutText {
+    font-size: 150%;
 
-
+  }
+}
 
 }
 .aboutText2{
@@ -108,7 +81,13 @@ section{
   text-align:center;
 
 }
+/*Adjusts font size based on screen size*/
+@media screen and (max-width: 950px) {
+  .aboutText2 {
+    font-size: 250%;
 
+  }
+}
 
 
 
@@ -153,5 +132,4 @@ section{
 .active {
   background-color: #ffffff;
   color: rgb(253, 253, 253);
-}
 }
