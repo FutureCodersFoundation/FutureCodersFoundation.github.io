@@ -2,7 +2,7 @@ body{
     background-color: rgb(0, 36, 68);
     background-size:cover;
     background-position: center;
-    font-family:'Trebuchet MS', 'Lucida Grande', sans-serif;
+    font-family:'Calibri', 'Lucida Grande', sans-serif;
     /* Style the navigation menu */
 
 .topnav {
@@ -42,7 +42,7 @@ body{
   
   /* Style the active link (or home/logo) */
   .active {
-    background-color: #ffffff;
+    background-color: #a9d4de;
     color: rgb(253, 253, 253);
   }
 
@@ -52,11 +52,11 @@ body{
     margin-left: 25%;
     margin-right:25%;
     font-size: 350%;
-    color: rgb(255, 145, 55);
+    color: rgb(237, 181, 75);
   }
   h3{
     padding-top: 100px;
-    color: rgb(255, 145, 55);
+    color: rgb(237, 181, 75);
     text-align: center;
     width: 100%;
     font-size: 250%;
@@ -97,7 +97,7 @@ body{
     color: white;
     font-size: 30px;
     text-decoration: none;
-    background-color: rgb(255, 145, 55);
+    background-color: rgb(243, 171, 54);
     padding: 1px 32px;
     margin: 4px 2px;
     cursor: pointer;
