@@ -59,30 +59,33 @@
       <div class="contact-box">
         <div class="contact-left">
           <h3>Send your request</h3>
-          <form>
+          <form action="https://api.web3forms.com/submit" method="POST">
                 <div class="input-row"> <!--from here to bot. is all the input boxes/classes -->
+                  <!-- just had to add random name for the api to work, key is the line beneath-->
+                  <input type="hidden" name="access_key" value="f3bad66f-039c-408a-933f-cda5ccd8eaab">
                   <div class="input-group">
                     <label>Name</label>
-                    <input type="text" placeholder ="Bjarne Stroustrup">
+                    <input type="text" name = "placeholder" placeholder ="Bjarne Stroustrup">
                   </div>
                   <div class="input-group">
                     <label>Number</label>
-                    <input type="text" placeholder ="951-262-3062">
+                    <input type="text" name = "number" placeholder ="951-262-3062">
                   </div>
                 </div>
             <div class="input-row">
               <div class="input-group">
                 <label>Email</label>
-                <input type="text" placeholder ="google@yahoo.com">
+                <input type="text" name = "email" placeholder ="google@yahoo.com">
               </div>
               <div class="input-group">
                 <label>Question</label>
-                <input type="text" placeholder ="How's the weather in Albuquerque?">
+                <input type="text" name = "question" placeholder ="How's the weather in Albuquerque?">
               </div>
+              <input type="checkbox" name="botcheck" class="hidden" style="display: none;"> <!-- honeypot spam detection! can switch to recaptcha if needed-->
             </div> <!-- i hate these goofy comments -->
 
             <label>Message</label> <!--- this one is just for the message/message box-->
-            <textarea type="text" placeholder="Tell us your feedback! Or about that weird dream you had."></textarea>
+            <textarea type="text" name = "message" placeholder="Tell us your feedback! Or about that weird dream you had."></textarea>
 
             <button class = "button" type="submit">Send</button>
 
