@@ -1,0 +1,11 @@
+body { 
+    background:
+        rgb(255,203,5);  /*this is the yellow background, wanna make it flow */
+
+    
+
+    .vl {
+        border-left: 6px solid green;
+        height: 500px;
+      }
+} 

@@ -63,10 +63,19 @@ section div h2{
 
 
 body{
-    background-color: white;
-    background-size:cover;
-    background-position: center;
-    font-family:'Calibri', 'Lucida Grande', sans-serif;
+  background:
+            linear-gradient(
+                    55deg, /*angle of the white border*/
+                    #6bc8f0 0%,
+                    rgb(255, 255, 255) 49%,
+                    rgb(255, 255, 255) 51%, /*percent at which they start/stop. can be played with*/
+                    rgb(247, 168, 65) 100%
+            );
+
+      /* background-blend-mode: screen; */
+      height: 100vh;
+      background-attachment: fixed; /* chunks in solid lines to whatever height you gave it (dont uncomment) */
+      font-family:'Calibri', 'Lucida Grande', sans-serif;
     
 
 
@@ -92,6 +101,13 @@ main{
   margin-left: 25%;
   margin-right: 25%;
   text-align: center;
+}
+
+.vertical-line {
+  border-left: 6px solid #333333;
+  height: 300px;
+  /*display: inline-block;*/
+  margin: 0 20px;
 }
 
 .image-container {
@@ -146,7 +162,7 @@ main{
 .topnav {
   width: 100%;
   overflow: hidden;
-  background-color: rgb(255, 255, 255);;
+  background-color: rgb(255, 203,5);;
   position: relative;
 }
 
